@@ -2,88 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CSCI Honors – Subway & Walkability Project</title>
+    <title>CSCI Honors – Urban Walkability Analysis</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>CSCI Honors – Subway & Walkability Project</h1>
-        <p>Hunter College · Fall 2025 · HC Assignments 3–7</p>
+        <h1>CSCI Honors – Urban Walkability & Subway Analysis</h1>
+        <p>Hunter College · Fall 2025 · Projects HC 3 – HC 7</p>
     </header>
 
     <main>
+
+        <!-- Overview -->
         <section>
-            <h2>Overview</h2>
+            <h2>Project Overview</h2>
             <p>
-                This website presents my analysis of New York City neighborhoods 
-                along the 6 train line. I use walkability scores, Niche rankings, 
-                demographic data, and commute times to explore urban quality of life.
+                This website showcases my analysis of neighborhoods along the NYC 6 train line. 
+                Across assignments HC 3 through HC 7, I explore relationships between walkability, 
+                commute times, housing costs, demographics, and neighborhood desirability using 
+                data visualization and real-world datasets.
             </p>
         </section>
 
+        <!-- HC 3 -->
         <section>
-            <h2>HC 3 – Computing Costs</h2>
+            <h2>HC 3 – Commuting & Housing Costs</h2>
             <p>
-                In HC 3, I compared housing costs and commute times from several 
-                neighborhoods to Midtown (Empire State Building) and the Financial 
-                District (Federal Hall). The goal was to see how much extra rent 
-                New Yorkers are willing to pay for a shorter commute.
+                For HC 3, I compared commute times and rental prices across three neighborhoods: 
+                the most walkable, least walkable, and terminal neighborhoods along the 6 train. 
+                The analysis highlighted how much New Yorkers pay in rent to shorten their commute.
             </p>
         </section>
 
+        <!-- HC 4 -->
         <section>
             <h2>HC 4 – Subway Logo</h2>
             <p>
-                For HC 4, I used <code>matplotlib</code> and hex color codes to design a 
-                subway line logo. The logo is based on the IRT Lexington Avenue (6) line.
+                Using <code>matplotlib</code> and the official MTA hex color codes, I created a custom 
+                subway service logo for the Lexington Avenue Line (6). 
             </p>
-            <!-- If you export your logo as subway_logo.png, put it in the repo and this will show it -->
-            <img src="subway_logo.pdf" alt="6 Train Subway Logo" class="logo">
-        </section>
-
-        <section>
-            <h2>HC 5 – Initial Website</h2>
             <p>
-                This GitHub Pages site is the initial skeleton for my course projects. 
-                All code and analysis are version-controlled through GitHub.
+                <a href="subway_logo.pdf" target="_blank">View my 6 Train Subway Logo (PDF)</a>
             </p>
         </section>
 
+        <!-- HC 6 -->
         <section>
             <h2>HC 6 – Additional Data</h2>
             <p>
-                I added demographic data (median income, median age, average rent, and 
-                population) for five neighborhoods along the 6 line:
-                Financial District, Upper East Side, East Harlem, Parkchester, and Pelham Bay.
+                In HC 6, I expanded my dataset by adding demographic features such as median 
+                household income, median age, population size, and average rent for each 
+                neighborhood studied. This richer dataset forms the basis for the visual 
+                analysis in HC 7.
             </p>
             <p>
                 <a href="HC6_updated_dataset.pdf" target="_blank">
-                    View HC 6 data table (PDF)
+                    View HC 6 Updated Dataset (PDF)
                 </a>
             </p>
         </section>
 
+        <!-- HC 7 -->
         <section>
             <h2>HC 7 – Analysis Plots</h2>
             <p>
-                Using the expanded dataset, I created three plots to investigate what 
-                features contribute most to the Niche ranking:
+                HC 7 required creating three visualizations to explore which features most 
+                strongly influence the Niche neighborhood rankings. I focused on the 
+                relationships between:
             </p>
+
             <ul>
-                <li>Walk Score vs. Niche Rank</li>
-                <li>Median Income vs. Niche Rank</li>
-                <li>Average Rent by Neighborhood</li>
+                <li>Walkability and Niche Rank</li>
+                <li>Median Income and Niche Rank</li>
+                <li>Neighborhood Average Rent</li>
             </ul>
+
+            <p>Download each plot:</p>
+
+            <ul>
+                <li>
+                    <a href="plot1_walkscore_vs_niche.pdf" target="_blank">
+                        Walk Score vs Niche Rank (PDF)
+                    </a>
+                </li>
+                <li>
+                    <a href="plot2_income_vs_niche.pdf" target="_blank">
+                        Median Income vs Niche Rank (PDF)
+                    </a>
+                </li>
+                <li>
+                    <a href="plot3_rent_bar.pdf" target="_blank">
+                        Average Rent by Neighborhood (PDF)
+                    </a>
+                </li>
+            </ul>
+
             <p>
                 <a href="HC7_Analysis_Plots.pdf" target="_blank">
-                    View HC 7 analysis plots (PDF)
+                    Download Full HC 7 Analysis Report (PDF)
                 </a>
             </p>
         </section>
+
     </main>
 
     <footer>
         <p>Created by [KC Ebunyebe] · Hosted on GitHub Pages</p>
     </footer>
+
 </body>
 </html>
